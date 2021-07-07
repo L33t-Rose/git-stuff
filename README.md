@@ -34,3 +34,13 @@ git commit -m "Commit Message"
 
 git push origin main(only if your the main branch!)
 ```
+
+# Set upstream of your current branch
+
+```
+git branch --set-upstream-to=origin/<name>  main
+
+OR
+
+git branch --track origin/test
+```
